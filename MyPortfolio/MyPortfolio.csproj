@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="config.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,6 +76,21 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ChronologicalCV.html" />
+    <Content Include="css\bootstrap-theme.css" />
+    <Content Include="css\bootstrap-theme.min.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\bootstrap.min.css" />
+    <Content Include="css\styles.css" />
+    <Content Include="img\beach-1850254_1920.jpg" />
+    <Content Include="img\hiker-984083_1920.jpg" />
+    <Content Include="img\html_css_icon.jpg" />
+    <Content Include="index.html" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="MyFirstWebPage.html" />
+    <Content Include="plans.html" />
+    <Content Include="surf.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
