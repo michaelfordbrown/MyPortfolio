@@ -1,54 +1,12 @@
-﻿<!DOCTYPE html>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MyPortfolio.Master" AutoEventWireup="true" CodeBehind="surf.aspx.cs" Inherits="MyPortfolio.surf" %>
 
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
-    <title>Bootstrap 3</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
-</head>
-<body>
-
-    <!--Navigational Bar-->
-    <div class="navbar navbar-inverse navbar-static-top">
-
-        <div class="container">
-            <!--Navigational Bar title-->
-            <a href="#" class="navbar-brand">Mike's Web Developers Portfolio Site</a>
-
-            <!--Mobile Navigation Bar icon that replaces full bar when screen size reduced to that of mobile-->
-            <!--Uses navHeaderCollapse-->
-            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-
-            <!--navHeaderCollapse - List of navigational bar items including drop down menu for Social Media-->
-            <div class="collapse navbar-collapse navHeaderCollapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Top of the Hill</a> </li>
-                    <li class="active"><a href="surf.html">Surfs Up</a> </li>
-                    <li><a href="plans.html">Plans and Progress</a></li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="https://www.linkedin.com/in/michael-brown-63975861">LinkedIn</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#">About</a> </li>
-                    <li><a href="#contact" data-toggle="modal">Contact</a> </li>
-                </ul>
-            </div>
-
-        </div>
-    </div>
-
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!--Side Navigation Bar (Moving within the current page)-->
     <nav class="bs-docs-sidebar hidden-print hidden-md hidden-sm hidden-xs affix">
         <h4></h4>
-        <ul class="nav nav-tabs nav-stacked navbar-right" style="font-size:smaller;">
+        <ul class="nav nav-tabs nav-stacked navbar-right" style="font-size: smaller;">
             Front-End
             <li><a href="#StudyHTML">HTML5</a></li>
             <li><a href="#StudyCSS">CSS3</a></li>
@@ -67,7 +25,7 @@
             <li><a href="#StudyGIT">GIT</a></li>
         </ul>
     </nav>
-    
+
     <!--Main Panel introducing web page-->
     <div class="container">
         <div class="row">
@@ -76,7 +34,7 @@
                     <div class="panel-body">
                         <div class="page-header">
                             <h4>“You can't connect the dots looking forward; you can only connect them looking backwards.</h4>
-                            <h4> &nbsp;So you have to trust that the dots will somehow connect in your future.”</h4>
+                            <h4>&nbsp;So you have to trust that the dots will somehow connect in your future.”</h4>
                         </div>
                         <img class="featureImg" src="img/beach-1850254_1920.jpg" height="300" width="1000" />
                         <p>Web Development is an exciting new area for me where I can use my passion to learn and leverage some of my previous experiences in order to make meaningful contributions to future projects and programmes.</p>
@@ -326,52 +284,4 @@
             <p class="navbar-text pull-right">Last Updated 10 January 2017</p>
         </div>
     </div>
-
-    <!-- NOT IN USE!-->
-    <div class="modal fade" id="contact" role="dialog">
-        <div class="modal-dialog">
-            <div cllass="modal-content" style="background-color: lightblue">
-                <form class="form-horizontal"></form>
-                <div class="modal-header">
-                    <h4>Contact Mike</h4>
-                </div>
-                <div class="modal-body">
-                    <div class="form-group">
-                        <label for="contact-name" class="col-lg-2 control-label">
-                            Name:
-                        </label>
-                        <div class="col-lg-10">
-                            <input type="text" class="form-control" id="contact-name" placeholder="Full Name" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="contact-email" class="col-lg-2 control-label">
-                            Email:
-                        </label>
-                        <div class="col-lg-10">
-                            <input type="email" class="form-control" id="contact-email" placeholder="you@example.com" />
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label for="contact-msg" class="col-lg-2 control-label">
-                            Message:
-                        </label>
-                        <div class="col-lg-10">
-                            <textarea class="form-control" rows="8"></textarea>
-                        </div>
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button class="btn btn-primary" type="submit">Send</button>
-                    <a class="btn btn-default" data-dismiss="modal">Close</a>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!--Scripts-->
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/bootstrap.js"></script>
-
-</body>
-</html>
+</asp:Content>
