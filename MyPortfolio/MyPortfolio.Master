@@ -24,6 +24,13 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
+    <style>
+        .floatimg {
+            float: left;
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
     <form id="MyPortfolioForm" runat="server">
@@ -33,8 +40,7 @@
 
             <div class="container">
                 <!--Navigational Bar title-->
-                <a href="#" class="navbar-brand">Mike's Web Developers Portfolio Site</a>
-
+              
                 <!--Mobile Navigation Bar icon that replaces full bar when screen size reduced to that of mobile-->
                 <!--Uses navHeaderCollapse-->
                 <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
@@ -43,20 +49,27 @@
                     <span class="icon-bar"></span>
                 </button>
 
+                <!--Nav Bar Brand-->
+                <a class="navbar-brand" href="#">
+                    Mike Brown  Web Developer
+                </a>
+
                 <!--navHeaderCollapse - List of navigational bar items including drop down menu for Social Media-->
                 <div class="collapse navbar-collapse navHeaderCollapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="index.aspx">Top of the Hill</a> </li>
-                        <li><a href="surf.aspx">Surfs Up</a> </li>
-                        <li><a href="plans.aspx">Plans and Progress</a></li>
+                        <li><a href="default.aspx">Home</a> </li>
+                        <li><a href="plans.aspx">Current Projects</a> </li>
+                        <li><a href="skills.aspx">Key Skills</a></li>
                         <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resumes and Profiles<b class="caret"></b></a>
                             <ul class="dropdown-menu">
+                                <li><a href="docs/WebDeveloperCV.html">Web Developer CV</a> </li>
+                                <li><a href="docs/ChronologicalCV.html">Chronological CV</a> </li>
                                 <li><a href="https://www.linkedin.com/in/michael-brown-63975861">LinkedIn</a></li>
                             </ul>
                         </li>
                         <li><a href="#">About</a> </li>
-                        <li><a href="#contact" data-toggle="modal">Contact</a> </li>
+                        <li><a href="mailto:michaelbrown20160630@gmail.com?Subject=From%20Your%20Portfolio">Contact</a> </li>
                     </ul>
                 </div>
 
@@ -72,53 +85,24 @@
         <!--Navigational Footer-->
         <div class="navbar navbar-default navbar-fixed-bottom">
             <div class="container">
-                <p class="navbar-text pull-left">Site Built By Mike Brown</p>
-                <p class="navbar-text pull-right">Last Updated 10 January 2017</p>
-            </div>
-        </div>
-
-        <!--Contact Modal-->
-        <div class="modal fade" id="contact" role="dialog">
-            <div class="modal-dialog">
-                <div cllass="modal-content" style="background-color: lightblue">
-                    <form class="form-horizontal"></form>
-                    <div class="modal-header">
-                        <h4>Contact Mike</h4>
+                <div class="row">
+                    <div class=" col-md-8 col-sm-8">
+                        <img src="img/OnTheBeach.jpg" class="floating hidden-sm  hidden-xs" width="70" height="90"/ style="float:left">
+                        <p class="hidden-sm  hidden-xs">An enthusiastic, engineer with experience.<br />
+                            Looking to enter the world of website development.<br />
+                            Currently looking for a web developer position where my efforts can solve problems.
+                        </p>
+                        <p>AVAILABLE FOR IMMEDIATE HIRE</p>
                     </div>
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="contact-name" class="col-lg-2 control-label">
-                                Name:
-                            </label>
-                            <div class="col-lg-10">
-                                <input type="text" class="form-control" id="contact-name" placeholder="Full Name" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="contact-email" class="col-lg-2 control-label">
-                                Email:
-                            </label>
-                            <div class="col-lg-10">
-                                <input type="email" class="form-control" id="contact-email" placeholder="you@example.com" />
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label for="contact-msg" class="col-lg-2 control-label">
-                                Message:
-                            </label>
-                            <div class="col-lg-10">
-                                <textarea class="form-control" rows="8"></textarea>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-primary" type="submit">Send</button>
-                        <a class="btn btn-default" data-dismiss="modal">Close</a>
+                    <div class="col-md-4 col-sm-4">
+                        <a href="https://www.linkedin.com/in/michael-brown-63975861" class="hidden-xs">LinkedIn: michael-brown-63975861</a>
+                        <br />
+                       <a href="mailto:michaelbrown20160630@gmail.com?Subject=From%20Your%20Portfolio">Send Mail michaelbrown20160630@gmail.com</a>
                     </div>
                 </div>
             </div>
         </div>
-
+        
         <!--Scripts-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>

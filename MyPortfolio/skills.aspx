@@ -1,26 +1,23 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MyPortfolio.Master" AutoEventWireup="true" CodeBehind="surf.aspx.cs" Inherits="MyPortfolio.surf" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MyPortfolio.Master" AutoEventWireup="true" CodeBehind="skills.aspx.cs" Inherits="MyPortfolio.surf" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <!--Side Navigation Bar (Moving within the current page)-->
-    <nav class="bs-docs-sidebar hidden-print hidden-md hidden-sm hidden-xs affix">
-        <h4></h4>
+    <nav class="bs-docs-sidebar col-lg-1 col-md-1 hidden-print hidden-sm hidden-xs affix">
+        <p>In Page Navigation</p>
         <ul class="nav nav-tabs nav-stacked navbar-right" style="font-size: smaller;">
             Front-End
             <li><a href="#StudyHTML">HTML5</a></li>
             <li><a href="#StudyCSS">CSS3</a></li>
             <li><a href="#StudyJavaScript">JavaScript</a></li>
-            Back-End
-            <li><a href="#StudyPHP">PHP</a></li>
-            <li><a href="#StudyDatabases">Databases</a></li>
+            <li><a href="#StudyjQuery">jQuery</a></li>
+            <li><a href="#StudyBootstrap">Bootstrap</a></li>
             Microsoft
-            <li><a href="#StudyASPNET">ASP.NET</a></li>
             <li><a href="#StudyCSharp">C#</a></li>
+            <li><a href="#StudyASPNET">ASP.NET</a></li>
             <li><a href="#StudySQLServer">SQL Server</a></li>
             Tools
-            <li><a href="#StudyBootstrap">Bootstrap</a></li>
-            <li><a href="#StudyjQuery">jQuery</a></li>
             <li><a href="#StudyPhotoshop">Photo shop</a></li>
             <li><a href="#StudyGIT">GIT</a></li>
         </ul>
@@ -28,28 +25,22 @@
 
     <!--Main Panel introducing web page-->
     <div class="container">
-        <div class="row">
-            <div class="col-md-12" role="main">
-                <div class="panel panel-default">
-                    <div class="panel-body">
-                        <div class="page-header">
-                            <h4>“You can't connect the dots looking forward; you can only connect them looking backwards.</h4>
-                            <h4>&nbsp;So you have to trust that the dots will somehow connect in your future.”</h4>
-                        </div>
-                        <img class="featureImg" src="img/beach-1850254_1920.jpg" height="300" width="1000" />
-                        <p>Web Development is an exciting new area for me where I can use my passion to learn and leverage some of my previous experiences in order to make meaningful contributions to future projects and programmes.</p>
-                        <p>So l have started by putting down a few dots . . </p>
-                    </div>
-                </div>
-            </div>
+        <div class="jumbotron">
+            <h1 class="banner">Key Skills</h1>
+            <p>Web Development is an exciting new area for me where I can use my passion to learn and leverage some of my previous experiences in order to make meaningful contributions to future projects and programmes.</p>
         </div>
+    </div>
+
+
+    <!--12 Grid Layout-->
+    <div class="container">
 
         <!--1st ROW-->
         <div class="row">
-
-            <div class="col-md-4">
+            <h2>Front End Web Development</h2>
+            <div class="col-lg--4 col-md-3">
                 <a name="StudyHTML"></a>
-                <h5>HTML5</h5>
+                <h3>HTML5</h3>
                 <p>Going through the Lynda.com HTML Essential Training course I covered:</p>
                 <ul>
                     <li>What HTML is.</li>
@@ -62,9 +53,9 @@
                 </ul>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg--4 col-md-3">
                 <a name="StudyCSS"></a>
-                <h5>CSS3</h5>
+                <h3>CSS3</h3>
                 <p>Going through the On line CSS Tutorial I covered:</p>
                 <ul>
                     <li>What CSS is.</li>
@@ -78,9 +69,9 @@
                 </ul>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a name="StudyJavaScript"></a>
-                <h5>JavaScript</h5>
+                <h3>JavaScript</h3>
                 <p>Going through the Lynda.com JavaScript Essential Training course I covered:</p>
                 <ul>
                     <li>What is JavaScript</li>
@@ -98,13 +89,13 @@
         <!--1st ROW-->
         <!--1st ROW Buttons-->
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a class="btn btn-default" href="#">Some HTML Work</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a class="btn btn-default" href="#">Some CSS Work</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a class="btn btn-default" href="#">Some JavaScript Work</a>
             </div>
         </div>
@@ -112,9 +103,9 @@
         <!--2nd ROW-->
         <div class="row">
 
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a name="StudyjQuery"></a>
-                <h5>JQuery</h5>
+                <h3>JQuery</h3>
                 <p>using the jQuery Learning Center I have covered:</p>
                 <ul>
                     <li>jQuery Core</li>
@@ -127,9 +118,9 @@
                 </ul>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a name="StudyBootstrap"></a>
-                <h5>Bootstrap</h5>
+                <h3>Bootstrap</h3>
                 <p>Going through several Pluralsight.com courses on Photo shop I have covered:</p>
                 <ul>
                     <li>CSS Typography, Control Objects, Images and Helpers</li>
@@ -142,21 +133,22 @@
         <!--2nd ROW-->
         <!--2nd ROW Buttons-->
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a class="btn btn-default" href="#">Some jQuery Work</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a class="btn btn-default" href="#">Some Bootstrap Work</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
             </div>
         </div>
 
         <!--3rd ROW-->
         <div class="row">
-            <div class="col-md-4">
+            <h2>Microsoft</h2>
+            <div class="col-lg-4 col-md-3">
                 <a name="StudyCSharp"></a>
-                <h5>C#</h5>
+                <h3>C#</h3>
                 <p>Going through several Lynda.com courses on C# I have covered:</p>
                 <ul>
                     <li>Introduction to C#</li>
@@ -174,25 +166,21 @@
                     <li>Interfaces and Generics</li>
                 </ul>
             </div>
-
-            <div class="col-md-4">
-                <a name="StudyDatabases"></a>
-                <h5>Databases</h5>
-                <p>Going through several Lynda.com courses on Relational Databases I have covered:</p>
+            
+            <div class="col-lg-4 col-md-3">
+                <a name="StudyASPNET"></a>
+                <h3>ASP.NET Web Forms</h3>
+                <p>Going through several Lynda.com courses on ASP.NET Webforms I have covered:</p>
                 <ul>
-                    <li>Database Management Systems (DBMS)</li>
-                    <li>Relational DBMS</li>
-                    <li>Fundamentals of Relational Databases</li>
-                    <li>Relationships</li>
-                    <li>Optimization</li>
-                    <li>Querying</li>
-                    <li>Indexing</li>
+                    <li>Web Form Features</li>
+                    <li>Web Controls</li>
+                    <li>Data Source Controls</li>
                 </ul>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a name="StudySQLServer"></a>
-                <h5>SQL Server</h5>
+                <h3>SQL Server</h3>
                 <p>Going through several Lynda.com courses on Microsoft Relational Databases I have covered:</p>
                 <ul>
                     <li>SQL Server Data Tools</li>
@@ -206,34 +194,23 @@
         <!--3rd ROW-->
         <!--3rd ROW Buttons-->
         <div class="row">
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a class="btn btn-default" href="#">Some C# Work</a>
             </div>
-            <div class="col-md-4">
-                <a class="btn btn-default" href="#">Some Database Work</a>
+            <div class="col-lg-4 col-md-3">
+                <a class="btn btn-default" href="#">Some ASP.NET Work</a>
             </div>
-            <div class="col-md-4">
-                <a class="btn btn-default" href="#">Some Database Work</a>
+            <div class="col-lg-4 col-md-3">
+                <a class="btn btn-default" href="#">Some SQL Server Work</a>
             </div>
         </div>
 
         <!--4th ROW-->
         <div class="row">
-
-            <div class="col-md-4">
-                <a name="StudyASPNET"></a>
-                <h5>ASP.NET Web Forms</h5>
-                <p>Going through several Lynda.com courses on ASP.NET Webforms I have covered:</p>
-                <ul>
-                    <li>Web Form Features</li>
-                    <li>Web Controls</li>
-                    <li>Data Source Controls</li>
-                </ul>
-            </div>
-
-            <div class="col-md-4">
+            
+            <div class="col-lg-4 col-md-3">
                 <a name="StudyPhotoshop"></a>
-                <h5>PhotoShop/WireFrames</h5>
+                <h2>PhotoShop</h2>
                 <p>Going through several Pluralsight.com courses on Photoshop I have covered:</p>
                 <ul>
                     <li>Digital Imaging Concepts</li>
@@ -245,9 +222,9 @@
                 </ul>
             </div>
 
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a name="StudyGIT"></a>
-                <h5>GIT</h5>
+                <h2>GIT</h2>
                 <p>Going through several Pluralsight.com courses on GIT I have covered:</p>
                 <ul>
                     <li>Distributed Revision Control System</li>
@@ -264,15 +241,18 @@
         <!--4th ROW-->
         <!--4th ROW Buttons-->
         <div class="row">
-            <div class="col-md-4">
-                <a class="btn btn-default" href="#">Some ASP.NET Work</a>
-            </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a class="btn btn-default" href="#">Some Photoshop Work</a>
             </div>
-            <div class="col-md-4">
+            <div class="col-lg-4 col-md-3">
                 <a class="btn btn-default" href="#">Some GIT Usage</a>
             </div>
+        </div>
+
+        <!--END ROW-->
+        <div class="row">
+            <br />
+            <br />
         </div>
 
     </div>
