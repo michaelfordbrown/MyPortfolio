@@ -67,7 +67,7 @@
                         <td></td>
                     </tr>
                 </table>
-                <a href="#">Fun With Colours GITHUB Link</a>
+                <a href="https://github.com/michaelfordbrown/FunWithColours">Fun With Colours GITHUB Link</a>
 
                 <h2>Dwarfs Care Agency</h2>
                 <table class="table table-striped table-bordered">

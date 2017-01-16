@@ -24,7 +24,7 @@
         <!--List of Current Projects-->
         <div class="col-md-3 hidden-sm hidden-xs " id="projectsList">
             <div class="list-group">
-                <a href="#">
+                <a href="plans.aspx">
                     <h2>Current Projects</h2>
                 </a>
                 <a href="http://mikebrownmyportfolio.azurewebsites.net/" class="list-group-item">
@@ -34,14 +34,14 @@
                         Aim to show demonstrations of my work.
                     </p>
                 </a>
-                <a href="#" class="list-group-item">
+                <a href="http://funwithcolours.azurewebsites.net/" class="list-group-item">
                     <h3 class="list-group-item-heading">Fun With Colours </h3>
                     <p class="list-group-item-text hidden-xs hidden-sm">
                         A simple front end based website that exercises the use of jQuery and Bootstrap libraries.
                     </p>
                 </a>
                 <a href="#" class="list-group-item">
-                    <h3 class="list-group-item-heading">Little Dwarfs Care Agency Payment</h3>
+                    <h3 class="list-group-item-heading">Little Dwarfs Care Agency</h3>
                     <p class="list-group-item-text hidden-xs hidden-sm">
                         Fantasy care agency based upon real life data.<br />
                         I had written a spreadsheet to calculate payments which I will implement on a website linked to database.
@@ -52,7 +52,7 @@
 
         <!--Main Article-->
         <div class="col-md-6 col-sm-8  col-xs-12" id="mainArticle">
-            <h2><a href="#">Profile</a></h2>
+            <h2><a href="docs/WebDeveloperCV.html">Profile</a></h2>
             <h3>The Past</h3>
             <p>An enthusiastic, engineer with many years of experience in the development of wired/wireless communication solutions. Including development, configuration management, integration, customer support and team leadership.</p>
             <p>I recently reached another top of the many hills in my career. While taking time-out I have been considering what to do next.</p>
@@ -73,10 +73,10 @@
         <div class="col-md-3 col-sm-4 col-xs-12" id="keySkills">
             <div class="list-group">
                 <a href="#">
-                    <h2>Key Skills</h2>
+                    <h2>Skills and Competencies</h2>
                 </a>
                 <a href="skills.aspx" class="list-group-item">
-                    <h3 class="list-group-item-heading  hidden-xs hidden-sm">Knowledge</h3>
+                    <h3 class="list-group-item-heading  hidden-xs hidden-sm">Key Skills</h3>
                     <p class="list-group-item-text">
                         HTML<br />
                         CSS<br />

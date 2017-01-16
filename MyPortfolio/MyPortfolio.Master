@@ -61,6 +61,7 @@
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Current Projects<b class="caret"></b></a> 
                             <ul class="dropdown-menu">
+                                <li><a href="plans.aspx">Project Plans</a> </li>
                                 <li><a href="http://funwithcolours.azurewebsites.net/">Fun With Colours</a> </li>
                                 <li><a href="#">Little Dwarfs Care Agency</a></li>
                             </ul>
