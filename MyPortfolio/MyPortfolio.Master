@@ -49,7 +49,7 @@
                     <span class="icon-bar"></span>
                 </button>
 
-                <!--Nav Bar Brand-->
+                <!--Navigational Bar Brand-->
                 <a class="navbar-brand" href="#">
                     Mike Brown  Web Developer
                 </a>
@@ -58,7 +58,13 @@
                 <div class="collapse navbar-collapse navHeaderCollapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li><a href="default.aspx">Home</a> </li>
-                        <li><a href="plans.aspx">Current Projects</a> </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Current Projects<b class="caret"></b></a> 
+                            <ul class="dropdown-menu">
+                                <li><a href="http://funwithcolours.azurewebsites.net/">Fun With Colours</a> </li>
+                                <li><a href="#">Little Dwarfs Care Agency</a></li>
+                            </ul>
+                        </li>
                         <li><a href="skills.aspx">Key Skills</a></li>
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resumes and Profiles<b class="caret"></b></a>

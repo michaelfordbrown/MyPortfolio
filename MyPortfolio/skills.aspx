@@ -142,6 +142,7 @@
             <div class="col-lg-4 col-md-3">
             </div>
         </div>
+        <hr />
 
         <!--3rd ROW-->
         <div class="row">
@@ -204,10 +205,11 @@
                 <a class="btn btn-default" href="#">Some SQL Server Work</a>
             </div>
         </div>
+        <hr />
 
         <!--4th ROW-->
         <div class="row">
-            
+        <h2>Tools</h2>    
             <div class="col-lg-4 col-md-3">
                 <a name="StudyPhotoshop"></a>
                 <h2>PhotoShop</h2>
