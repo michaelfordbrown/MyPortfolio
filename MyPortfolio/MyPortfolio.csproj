@@ -67,7 +67,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="default.aspx" />
+    <Content Include="docs\LittleDwarfsCareAgencyNotes.html" />
     <Content Include="docs\WebDeveloperCV.html" />
+    <Content Include="img\image00.jpg" />
     <Content Include="img\image00.png" />
     <Content Include="img\Logo-1.png" />
     <Content Include="img\OnTheBeach.jpg" />
