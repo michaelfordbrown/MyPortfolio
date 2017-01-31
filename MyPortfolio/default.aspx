@@ -40,13 +40,14 @@
                         A simple front end based website that exercises the use of jQuery and Bootstrap libraries.
                     </p>
                 </a>
-                <a href="#" class="list-group-item">
+                <a href="http://littledwarfsagency.azurewebsites.net/XMLHandler.aspx" class="list-group-item">
                     <h3 class="list-group-item-heading">Little Dwarfs Care Agency</h3>
                     <p class="list-group-item-text hidden-xs hidden-sm">
                         Fantasy care agency based upon real life data.<br />
                         I had written a spreadsheet to calculate payments which I will implement on a website linked to database.
                     </p>
                 </a>
+                <a href="docs/LittleDwarfsCareAgencyNotes.html">Notes: Little Dwarfs Care Agency</a>
             </div>
         </div>
 
