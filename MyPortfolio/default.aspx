@@ -47,7 +47,7 @@
                         I had written a spreadsheet to calculate payments which I will implement on a website linked to database.
                     </p>
                 </a>
-                <a href="docs/LittleDwarfsCareAgencyNotes.html">Notes: Little Dwarfs Care Agency</a>
+                <a href="docs/LittleDwarfsCareAgencyNotes.html">Notes: Little Dwarfs Care Agency s</a>
             </div>
         </div>
 

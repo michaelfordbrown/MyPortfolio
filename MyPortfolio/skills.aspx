@@ -40,7 +40,7 @@
             <h2>Front End Web Development</h2>
             <div class="col-lg--4 col-md-3">
                 <a name="StudyHTML"></a>
-                <h3>HTML5</h3>
+                <h3><a href="HTML5WorkPage.aspx">HTML5</a></h3>
                 <p>Going through the Lynda.com HTML Essential Training course I covered:</p>
                 <ul>
                     <li>What HTML is.</li>
@@ -90,7 +90,7 @@
         <!--1st ROW Buttons-->
         <div class="row">
             <div class="col-lg-4 col-md-3">
-                <a class="btn btn-default" href="#">Some HTML Work</a>
+                <a class="btn btn-default" href="HTML5WorkPage.aspx">Some HTML Work</a>
             </div>
             <div class="col-lg-4 col-md-3">
                 <a class="btn btn-default" href="#">Some CSS Work</a>

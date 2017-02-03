@@ -66,9 +66,12 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="CanvasWorkSheet.js" />
     <Content Include="default.aspx" />
     <Content Include="docs\LittleDwarfsCareAgencyNotes.html" />
     <Content Include="docs\WebDeveloperCV.html" />
+    <Content Include="H5JSAPICanvas.aspx" />
+    <Content Include="HTML5WorkPage.aspx" />
     <Content Include="img\image00.jpg" />
     <Content Include="img\image00.png" />
     <Content Include="img\Logo-1.png" />
@@ -108,6 +111,20 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="H5JSAPICanvas.aspx.cs">
+      <DependentUpon>H5JSAPICanvas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="H5JSAPICanvas.aspx.designer.cs">
+      <DependentUpon>H5JSAPICanvas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HTML5WorkPage.aspx.cs">
+      <DependentUpon>HTML5WorkPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HTML5WorkPage.aspx.designer.cs">
+      <DependentUpon>HTML5WorkPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="MyPortfolio.Master.cs">
       <DependentUpon>MyPortfolio.Master</DependentUpon>
