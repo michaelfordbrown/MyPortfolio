@@ -66,16 +66,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CanvasWorkSheet.js" />
+    <Content Include="css\selectionworksheet.css" />
+    <Content Include="js\canvasworksheet.js" />
     <Content Include="default.aspx" />
     <Content Include="docs\LittleDwarfsCareAgencyNotes.html" />
     <Content Include="docs\WebDeveloperCV.html" />
     <Content Include="H5JSAPICanvas.aspx" />
+    <Content Include="H5Selection.aspx" />
     <Content Include="HTML5WorkPage.aspx" />
     <Content Include="img\image00.jpg" />
     <Content Include="img\image00.png" />
     <Content Include="img\Logo-1.png" />
     <Content Include="img\OnTheBeach.jpg" />
+    <Content Include="js\selectionworksheet.js" />
     <Content Include="packages.config" />
     <Content Include="config.json" />
     <Content Include="MyPortfolio.Master" />
@@ -118,6 +121,13 @@
     </Compile>
     <Compile Include="H5JSAPICanvas.aspx.designer.cs">
       <DependentUpon>H5JSAPICanvas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="H5Selection.aspx.cs">
+      <DependentUpon>H5Selection.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="H5Selection.aspx.designer.cs">
+      <DependentUpon>H5Selection.aspx</DependentUpon>
     </Compile>
     <Compile Include="HTML5WorkPage.aspx.cs">
       <DependentUpon>HTML5WorkPage.aspx</DependentUpon>

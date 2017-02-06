@@ -1,6 +1,8 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/MyPortfolio.Master" AutoEventWireup="true" CodeBehind="H5JSAPICanvas.aspx.cs" Inherits="MyPortfolio.H5JSAPICanvas" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+
+
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
 
@@ -63,5 +65,6 @@
         <canvas id="canvas0" style="border: 1px solid; width: 800px; height: 600px;">Browser does Not Does Not Support the CANVAS Tag.
         </canvas>
     </div>
-        <script src="CanvasWorkSheet.js"></script>
+        <script src="js/canvasworksheet.js"></script>
     </asp:Content>
+

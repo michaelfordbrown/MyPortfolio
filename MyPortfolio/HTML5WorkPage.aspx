@@ -43,7 +43,7 @@
                 <td>Defines a human-readable date/time (pubdate for published date of document). </td>
             </tr>
             <tr>
-                <td>canvas</td>
+                <td><a href="H5JSAPICanvas.aspx">canvas</a></td>
                 <td>Used to draw graphics, on the fly, via JavaScript.</td>
                 <td>mark</td>
                 <td>Defines marked text. Used to highlight parts of your text. </td>
@@ -93,7 +93,7 @@
             <tr>
                 <td> <a href="H5JSAPICanvas.aspx">Canvas</a></td>
                 <td>IndexDB</td>
-                <td>Selection</td>
+                <td><a href="H5Selection.aspx">Selection</a></td>
             </tr>
             <tr>
                 <td>Contacts</td>

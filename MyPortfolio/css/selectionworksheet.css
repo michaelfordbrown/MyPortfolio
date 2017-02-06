@@ -1,0 +1,33 @@
+﻿body {
+}
+
+#result-stub .item {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 4px;
+    background-color: lightblue;
+}
+
+.odd {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 4px;
+    background-color: lightyellow;
+}
+
+#result div {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 4px;
+    margin: 4px;
+}
+
+    #result div:hover {
+        background-color: #eee;
+    }
+
+.odd {
+    background-color: #ffc;
+}
