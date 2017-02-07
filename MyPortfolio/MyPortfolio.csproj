@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="css\selectionworksheet.css" />
+    <Content Include="H5Forms.aspx" />
     <Content Include="js\canvasworksheet.js" />
     <Content Include="default.aspx" />
     <Content Include="docs\LittleDwarfsCareAgencyNotes.html" />
@@ -114,6 +115,13 @@
     </Compile>
     <Compile Include="default.aspx.designer.cs">
       <DependentUpon>default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="H5Forms.aspx.cs">
+      <DependentUpon>H5Forms.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="H5Forms.aspx.designer.cs">
+      <DependentUpon>H5Forms.aspx</DependentUpon>
     </Compile>
     <Compile Include="H5JSAPICanvas.aspx.cs">
       <DependentUpon>H5JSAPICanvas.aspx</DependentUpon>
