@@ -79,6 +79,7 @@
     <Content Include="img\image00.png" />
     <Content Include="img\Logo-1.png" />
     <Content Include="img\OnTheBeach.jpg" />
+    <Content Include="js\JavaScript.js" />
     <Content Include="js\selectionworksheet.js" />
     <Content Include="packages.config" />
     <Content Include="config.json" />

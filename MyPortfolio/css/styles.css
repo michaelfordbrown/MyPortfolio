@@ -1,6 +1,5 @@
-﻿body
-{
-    margin-bottom:80px;
+﻿body {
+    margin-bottom: 80px;
 }
 
 .page-header {
@@ -8,13 +7,26 @@
 }
 
 .panel-body {
-    padding-top:0;
+    padding-top: 0;
 }
 
-.featureImg{
-    max-width:100%;
+.featureImg {
+    max-width: 100%;
     margin-bottom: 15px;
 }
-.list-group-item{
+
+.list-group-item {
     margin-bottom: 15px;
 }
+
+.section {
+    border-style: solid;
+    border-radius: 25px;
+}
+
+#list-group-item {
+    color: red;
+    border-style: solid;
+    border-radius: 25px;
+}
+

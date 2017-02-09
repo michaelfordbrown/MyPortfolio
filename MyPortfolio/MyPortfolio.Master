@@ -24,13 +24,6 @@
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
 
-    <style>
-        .floatimg {
-            float: left;
-            margin-right: 10px;
-            margin-bottom: 10px;
-        }
-    </style>
 </head>
 <body>
     <form id="MyPortfolioForm" runat="server">
@@ -94,12 +87,12 @@
             <div class="container">
                 <div class="row">
                     <div class=" col-md-8 col-sm-8">
-                        <img src="img/OnTheBeach.jpg" class="floating hidden-sm  hidden-xs" width="70" height="90"/ style="float:left">
+                        <img src="img/OnTheBeach.jpg" class="floating hidden-sm  hidden-xs" width="70" height="90"/>
                         <p class="hidden-sm  hidden-xs">An enthusiastic, engineer with experience.<br />
                             Looking to enter the world of website development.<br />
                             Currently looking for a web developer position where my efforts can solve problems.
                         </p>
-                        <p>AVAILABLE FOR IMMEDIATE HIRE</p>
+                        <p class="highlight">AVAILABLE FOR IMMEDIATE HIRE</p>
                     </div>
                     <div class="col-md-4 col-sm-4">
                         <a href="https://www.linkedin.com/in/michael-brown-63975861" class="hidden-xs">LinkedIn: michael-brown-63975861</a>
@@ -113,7 +106,7 @@
         <!--Scripts-->
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
         <script src="js/bootstrap.js"></script>
-
+        <script src="js/JavaScript.js"></script>
     </form>
 </body>
 </html>
