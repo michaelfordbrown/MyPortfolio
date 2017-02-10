@@ -7,6 +7,13 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+
+    <!--Welcome Message-->
+    <div class="welcome">
+        <h1 class="welcome">Welcome To Mike's Web Developers Portfolio</h1>
+        <p class="highlight flashelement">Hover Here</p>
+    </div>
+
     <!--Web site title image banner-->
     <div class="container">
         <div class="jumbotron">
