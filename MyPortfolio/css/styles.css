@@ -47,3 +47,12 @@
         opacity: 1;
     }
 }
+
+nav .navbar-right li{
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 1px 1px 1px;
+    padding: 20px, 20px, 20px, 20px;
+    margin: 10px, 10px, 10px, 10px;
+}
+
