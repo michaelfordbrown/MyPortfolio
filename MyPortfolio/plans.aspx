@@ -84,9 +84,16 @@
                     <tr>
                         <td>1.0</td>
                         <td>Aim to get a vanilla site with minimum formatting that has been knocked out from the keyboard.  No design behind structure. Goal to be gain experience and apply C#, ASP.NET and SQL Server skills to this site.</td>
-                        <td>Draft site started.</td>
+                        <td>Draft site completed.</td>
+                        <td>XML File Handler created that manages default database information.</td>
+                    </tr>
+                    <tr>
+                        <td>2.0</td>
+                        <td>Add Classic 3 Tier Architecture </td>
+                        <td>Draft site for handling Invoices started.</td>
                         <td></td>
                     </tr>
+
                 </table>
                 <a href="https://github.com/michaelfordbrown/LittleDwarfsAgency">Dwarfs Care Agency GITHUB Link</a>
             </div>
