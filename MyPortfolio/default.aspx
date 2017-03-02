@@ -97,7 +97,9 @@
                         jQuery<br />
                         Bootstrap<br />
                         C#<br />
-                        ASP.NET<br />
+                        ASP.NET ADO<br />
+                        ASP.NET 3 Tier Architecture<br />
+                        ASP.NET MVC<br />
                         Microsoft SQL Server<br />
                     </p>
                 </a>

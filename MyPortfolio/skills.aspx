@@ -136,12 +136,14 @@
 
                 <div class="col-lg-4 col-md-3">
                     <a name="StudyASPNET"></a>
-                    <h3 class="skillsdetails">ASP.NET Web Forms</h3>
-                    <p class="skillsdetails">Going through several Lynda.com courses on ASP.NET Webforms I have covered:</p>
+                    <h3 class="skillsdetails">ASP.NET</h3>
+                    <p class="skillsdetails">Going through several Lynda.com Pluralsight.com and courses on ASP.NET Webforms I have covered:</p>
                     <ul class="skillsdetails">
-                        <li>Web Form Features</li>
-                        <li>Web Controls</li>
-                        <li>Data Source Controls</li>
+                        <li><a href="http://littledwarfsagency.azurewebsites.net/XMLHandler.aspx">Web Form Features</a></li>
+                        <li><a href="http://littledwarfsagency.azurewebsites.net/XMLHandler.aspx">Web Controls</a></li>
+                        <li><a href="http://littledwarfsagency.azurewebsites.net/InvoiceHandler.aspx">3 Tier Architecture</a></li>
+                        <li><a href="http://littledwarfsagencymvc.azurewebsites.net/">MVC (including ViewModel)</a></li>
+                        <li><a href="#">MVC Unit Testing (Unit Framework, Repositories, Mocks and Dependency Injection)</a></li>
                     </ul>
                 </div>
 
@@ -165,19 +167,6 @@
         <div class="row">
             <div class="tools skills ready">
                 <h2 class="skills ready">Tools</h2>
-                <div class="col-lg-4 col-md-3">
-                    <a name="StudyPhotoshop"></a>
-                    <h3 class="skillsdetails">PhotoShop</h3>
-                    <p class="skillsdetails">Going through several Pluralsight.com courses on Photoshop I have covered:</p>
-                    <ul class="skillsdetails">
-                        <li>Digital Imaging Concepts</li>
-                        <li>Sections and Composting</li>
-                        <li>Layers and Masks</li>
-                        <li>Wireframing</li>
-                        <li>Mockup</li>
-                        <li>Generate Code</li>
-                    </ul>
-                </div>
 
                 <div class="col-lg-4 col-md-3">
                     <a name="StudyGIT"></a>
@@ -191,6 +180,7 @@
                         <li>Using Remote Repositories</li>
                         <li>DIFF Command</li>
                         <li>Branching</li>
+                        <li><a href="https://github.com/">GITHUB</a></li>
                     </u>
                 </div>
             </div>
