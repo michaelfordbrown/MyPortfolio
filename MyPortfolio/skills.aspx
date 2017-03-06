@@ -118,19 +118,11 @@
                     <h3 class="skillsdetails">C#</h3>
                     <p class="skillsdetails">Going through several Lynda.com courses on C# I have covered:</p>
                     <ul class="skillsdetails">
-                        <li>Introduction to C#</li>
-                        <li>Framework, and Windows Runtime</li>
-                        <li>Memory Management and Garbage Collection</li>
-                        <li>Desktop Applications</li>
-                        <li>Web Applications</li>
-                        <li>Language Fundamentals</li>
-                        <li>Managing Application Flow</li>
-                        <li>Exception Handling and Debugging</li>
-                        <li>Managing Collections of Data</li>
-                        <li>Custom Classes</li>
-                        <li>Inheritance and Polymorphism</li>
-                        <li>Delegates, Events and Lambdas</li>
-                        <li>Interfaces and Generics</li>
+                        <li><a href="https://github.com/michaelfordbrown/CSharpSamples">Introduction to C#</a></li>
+                        <li><a href="https://github.com/michaelfordbrown/CSharpSamples/tree/master/ArrarySort">Array Sorting Using Built-In Methods (.Sort(), Delegate & IComparable)</a></li>
+                        <li><a href="https://github.com/michaelfordbrown/CSharpSamples/tree/master/TwoArraySort">Array Sorting Custom Method (Bubble Sort)</a></li>
+                        <li><a href="https://github.com/michaelfordbrown/CSharpSamples/tree/master/DiceGame">Randomization</a></li>
+                        <li><a href="https://github.com/michaelfordbrown/CSharpSamples/blob/master/ReverseLinkListElements">Linked List</a></li>
                     </ul>
                 </div>
 
@@ -143,7 +135,7 @@
                         <li><a href="http://littledwarfsagency.azurewebsites.net/XMLHandler.aspx">Web Controls</a></li>
                         <li><a href="http://littledwarfsagency.azurewebsites.net/InvoiceHandler.aspx">3 Tier Architecture</a></li>
                         <li><a href="http://littledwarfsagencymvc.azurewebsites.net/">MVC (including ViewModel)</a></li>
-                        <li><a href="#">MVC Unit Testing (Unit Framework, Repositories, Mocks and Dependency Injection)</a></li>
+                        <li><a href="https://github.com/michaelfordbrown/LittleDwarfsAgencyMVC/tree/InvoiceUnitTests">MVC Unit Testing (Unit Framework, Repositories, Mocks and Dependency Injection)</a></li>
                     </ul>
                 </div>
 

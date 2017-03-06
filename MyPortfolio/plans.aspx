@@ -10,7 +10,7 @@
         <div class="row">
             <div class="col-md-12">
                 <h2>My Portfolio</h2>
-                <table class="table table-striped table-bordered">
+                <table class="table table-bordered">
                     <tr class="info">
                         <th>Step
                         </th>
@@ -49,7 +49,7 @@
                 <a href="https://github.com/michaelfordbrown/MyPortfolio">My Portfolio GITHUB Link</a>
 
                 <h2>Fun With Colours</h2>
-                <table class="table table-striped table-bordered">
+                <table class="table table-bordered">
                     <tr class="info">
                         <th>Step
                         </th>
@@ -70,7 +70,7 @@
                 <a href="https://github.com/michaelfordbrown/FunWithColours">Fun With Colours GITHUB Link</a>
 
                 <h2>Dwarfs Care Agency</h2>
-                <table class="table table-striped table-bordered">
+                <table class="table table-bordered">
                     <tr class="info">
                         <th>Step
                         </th>
@@ -90,12 +90,24 @@
                     <tr>
                         <td>2.0</td>
                         <td>Add Classic 3 Tier Architecture </td>
+                        <td>Handling Invoices completed.</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3.0</td>
+                        <td>MVC</td>
                         <td>Draft site for handling Invoices started.</td>
                         <td></td>
                     </tr>
-
+                    <tr>
+                        <td>4.0</td>
+                        <td>Unit Tests</td>
+                        <td>Framework, Repositories, Mocks and Dependency Injection added</td>
+                        <td></td>
+                    </tr>
                 </table>
                 <a href="https://github.com/michaelfordbrown/LittleDwarfsAgency">Dwarfs Care Agency GITHUB Link</a>
+                <a href="https://github.com/michaelfordbrown/LittleDwarfsAgencyMVC">Dwarfs Care Agency MVC GITHUB Link</a>
             </div>
 
         </div>

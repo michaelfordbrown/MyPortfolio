@@ -108,8 +108,8 @@
                     <p class="list-group-item-text">
                         Front end website development<br />
                         Requirements gathering<br />
-                        Programming languages C, C++ and C#<br />
-                        Integration, Systems and Performance testing<br />
+                        Programming languages JavaScript and C#<br />
+                        Unit Testing<br />
                         Database setup and implementation<br />
                     </p>
                 </a>
