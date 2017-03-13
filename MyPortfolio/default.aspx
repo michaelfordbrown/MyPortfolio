@@ -12,6 +12,8 @@
         <h1 class="welcome highlight flashelement">Welcome To Mike's Web Developers Portfolio</h1>
     </div>
 
+    <!-- Bootstrap used to create a dynamic three column page that reduces with change in screen width-->
+
     <!--Web site title image banner-->
         <div class="jumbotron">
             <h1 class="banner">Mike's Web Developers Portfolio</h1>

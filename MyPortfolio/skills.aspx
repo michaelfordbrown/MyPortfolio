@@ -41,7 +41,7 @@
 
                 <div class="col-lg-4 col-md-3">
                     <a name="StudyCSS"></a>
-                    <h3 class="skillsdetails">CSS3</h3>
+                    <h3 class="skillsdetails"><a href="https://github.com/michaelfordbrown/FunWithColours/blob/master/FunWithColours/css/styles.css">CSS3</a></h3>
                     <p class="skillsdetails">Going through the On line CSS Tutorial I covered:</p>
                     <ul class="skillsdetails">
                         <li>What CSS is.</li>
@@ -51,7 +51,7 @@
                         <li>Positioning</li>
                         <li>Text and Fonts</li>
                         <li>Colours and Backgrounds</li>
-                        <li>Transitions and Transform</li>
+                        <li><a href="https://github.com/michaelfordbrown/FunWithColours/blob/master/FunWithColours/css/styles.css">Transitions and Transform</a></li>
                         <li><a href="https://github.com/michaelfordbrown/MyPortfolio/blob/master/MyPortfolio/H5JSAPICanvas.aspx">Canvas</a></li>
                     </ul>
                 </div>
@@ -77,35 +77,35 @@
 
         <!--2nd ROW-->
         <div class="row">
+            <div class="frontend skills ready">
+                <div class="col-lg-4 col-md-3">
+                    <a href="https://github.com/michaelfordbrown/MyPortfolio/blob/master/MyPortfolio/js/JavaScript.js" name="StudyjQuery" class="skillsdetails">
+                        <h3 class="skillsdetails ready"><a href="https://github.com/michaelfordbrown/MyPortfolio/blob/master/MyPortfolio/js/JavaScript.js">JQuery</a></h3>
+                    </a>
 
-            <div class="col-lg-4 col-md-3">
-                <a href="https://github.com/michaelfordbrown/MyPortfolio/blob/master/MyPortfolio/js/JavaScript.js" name="StudyjQuery" class="skillsdetails">
-                    <h3>JQuery</h3>
-                </a>
+                    <p class="skillsdetails">using the jQuery Learning Center I have covered:</p>
+                    <ul class="skillsdetails">
+                        <li>jQuery Core</li>
+                        <li>Events</li>
+                        <li>Effects</li>
+                        <li>Ajax</li>
+                        <li>Plug-ins</li>
+                        <li>Performance</li>
+                        <li>Code Organization</li>
+                    </ul>
+                </div>
 
-                <p class="skillsdetails">using the jQuery Learning Center I have covered:</p>
-                <ul class="skillsdetails">
-                    <li>jQuery Core</li>
-                    <li>Events</li>
-                    <li>Effects</li>
-                    <li>Ajax</li>
-                    <li>Plug-ins</li>
-                    <li>Performance</li>
-                    <li>Code Organization</li>
-                </ul>
+                <div class="col-lg-4 col-md-3">
+                    <a name="StudyBootstrap"></a>
+                    <h3 class="skillsdetails ready"><a href="https://github.com/michaelfordbrown/MyPortfolio/blob/master/MyPortfolio/default.aspx">Bootstrap</a></h3>
+                    <p class="skillsdetails">Going through several Pluralsight.com courses on Photo shop I have covered:</p>
+                    <ul class="skillsdetails">
+                        <li>CSS Typography, Control Objects, Images and Helpers</li>
+                        <li>Components Drop-downs, Navs and Glyphicons</li>
+                        <li>JavaScript Control Objects</li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="col-lg-4 col-md-3">
-                <a name="StudyBootstrap"></a>
-                <h3 class="skillsdetails">Bootstrap</h3>
-                <p class="skillsdetails">Going through several Pluralsight.com courses on Photo shop I have covered:</p>
-                <ul class="skillsdetails">
-                    <li>CSS Typography, Control Objects, Images and Helpers</li>
-                    <li>Components Drop-downs, Navs and Glyphicons</li>
-                    <li>JavaScript Control Objects</li>
-                </ul>
-            </div>
-
         </div>
         <!--2nd ROW-->
 
@@ -164,7 +164,7 @@
                     <a name="StudyGIT"></a>
                     <h3 class="skillsdetails">GIT</h3>
                     <p class="skillsdetails">Going through several Pluralsight.com courses on GIT I have covered:</p>
-                    <u class="skillsdetails" l>
+                    <u class="skillsdetails">
                         <li>Distributed Revision Control System</li>
                         <li>Setting Up GIT Repository</li>
                         <li>Retrieving Status of Repository</li>
