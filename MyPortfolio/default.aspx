@@ -50,7 +50,7 @@
                         I had written a spreadsheet to calculate payments which I will implement on a website linked to database.
                     </p>
                 </a>
-                <a href="docs/LittleDwarfsCareAgencyNotes.html" class="ready">Notes: Little Dwarfs Care Agency</a>
+                <a href="https://docs.google.com/document/d/1sdlqOioGjr4fJ2ANyv8qvvYO8YtJXYoCEnBtWIXhtEA/pub" class="ready">Notes: Little Dwarfs Care Agency</a>
             </div>
         </div>
     </aside>

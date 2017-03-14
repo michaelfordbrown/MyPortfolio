@@ -106,10 +106,9 @@
                         <td></td>
                     </tr>
                 </table>
-                <a href="https://github.com/michaelfordbrown/LittleDwarfsAgency">Dwarfs Care Agency GITHUB Link</a>
-                <a href="https://github.com/michaelfordbrown/LittleDwarfsAgencyMVC">Dwarfs Care Agency MVC GITHUB Link</a>
+                <a href="https://github.com/michaelfordbrown/LittleDwarfsAgency">Dwarfs Care Agency GITHUB Link</a><br />
+                <a href="https://github.com/michaelfordbrown/LittleDwarfsAgencyMVC">Dwarfs Care Agency MVC GITHUB Link</a><br />
             </div>
-
         </div>
     </div>
 </asp:Content>
